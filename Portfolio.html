@@ -1,82 +1,65 @@
-<!-- Bootstrap Grid -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-​
+
 <head>
-​
   <meta charset="UTF-8">
-  <title>Portfolio</title>
-​
-  <!-- Bring in our bootstrap stylesheet -->
-​
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Kyle Felder<>/title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-​
+
 <body>
-​<ul>
-  <li><a href="default.asp">Home</a></li>
-  <li><a href="news.asp">News</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-  <li><a href="about.asp">About</a></li>
-</ul>
-  <!-- Our rows function in containers (grid created). -->
-  <div class="container">
-​
-    <!-- Our columns function in rows. -->
-    <div class="row">
-​
-      <!-- Columns have 12 areas of width to work with. -->
-​
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 1 of 3 -->
-      </div>
-​
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-        <!-- This is column 2 of 3 -->
-      </div>
-​
-      <!-- One third of screen (4/12) -->
-      <div class="col-md-4">
-​
-        <!-- This is column 3 of 3 -->
-      </div>
-​
-      <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Kyle Felder</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-​
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
   </div>
-​
-​
-  <!-- Creates the Overall Grid -->
-  <div class="container">
-​
-    <!-- First Row -->
-    <div class="row">
-​
-      <!-- First (and only column) -->
-      <div class="col-md-12">
-        <h1>I'm in Column 1 of 1. I stretch the entire width. And keep going.</h1>
-      </div>
+
+  <footer>
+    <div class="container">
+      
     </div>
-​
-    <!-- Second Row -->
-    <div class="row">
-​
-      <!-- First of two columns -->
-      <div class="col-md-6">
-        <h1>I'm in Column 1 of 2</h1>
-      </div>
-​
-      <!-- Second of two columns -->
-      <div class="col-md-6">
-        <h1>I'm in Column 2 of 2</h1>
-      </div>
-​
-    </div>
-​
-  </div>
-​
+  </footer>
 </body>
-​
+
 </html>
